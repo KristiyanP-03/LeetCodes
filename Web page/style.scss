@@ -1,0 +1,140 @@
+$text-size: 16;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-top{
+    background-image: url(images/background.jpg);
+}
+
+.section-top .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+#logo {
+    width: 50px;
+    margin: 10px;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li{
+    margin: 10px;
+}
+
+.main-nav a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.banner-title {
+    margin-top: 30px;
+    margin-right: 600px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.section-top p{
+    margin-top:10px;
+    font-size: 16px;
+}
+
+
+
+.section-main .container, .sction-bottom .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+
+.section-main .container{
+    margin-top: 80px;
+}
+
+& article{
+    padding: 30px;
+}
+
+& p {
+    font-size: 16px;
+}
+
+& a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid rgb(173, 114, 2);
+    color: rgb(173, 114, 2);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.section-bottom {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-bottom h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(173, 114, 2);
+}
+
+& p{
+    font-size: $text-size;
+    margin: 10px 100px;
+}
+
+#sponsor {
+    width: 100px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+
+.section-feedback, footer {
+    background-color: rgb(11, 11, 18);
+    color: white;
+    padding: 3em 0;
+}
+
+.section-feedback div {
+    display:inline-block;
+    padding: 30px;
+}
+
+.section-feedback h5{
+    font-size: $text-size;
+}
+.section-feedback li{
+    font-size: $text-size;
+}
+.section-feedback p {
+    text-transform: uppercase;
+    max-width: 180px;
+    font-size: $text-size;
+}
+
